@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="565.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewInformesController">
+   <children>
+      <Label layoutX="298.0" prefHeight="42.0" prefWidth="348.0" text="Informes generales">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font></Label>
+      <Separator layoutX="466.0" layoutY="88.0" orientation="VERTICAL" prefHeight="470.0" prefWidth="6.0" />
+      <Label layoutX="33.0" layoutY="45.0" prefHeight="101.0" prefWidth="401.0" text="Calcular los ingresos totales generados por cada cliente, considerando todas sus compras y reserva" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Button fx:id="btnGenerar1" layoutX="215.0" layoutY="130.0" mnemonicParsing="false" onAction="#generarConsutla1" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnVolver" layoutX="21.0" layoutY="479.0" mnemonicParsing="false" onAction="#volver" prefHeight="65.0" prefWidth="145.0" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+      <Label layoutX="135.0" layoutY="182.0" text="Reserva de vehiculo por mes" wrapText="true">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="126.0" layoutY="274.0" text="Uso de instalaciones por hotel">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="133.0" layoutY="369.0" text="Top 5 de paquetes reservados">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="583.0" layoutY="369.0" text="Mostrar los paquetes reservados">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="529.0" layoutY="274.0" text="Ranking de Ciudades por Número de Reservas">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="520.0" layoutY="182.0" text="Ingresos Totales por Tipo de Servicio Adicional">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="612.0" layoutY="84.0" text="Venta totales por clientes">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Button fx:id="btnGenerar2" layoutX="209.0" layoutY="219.0" mnemonicParsing="false" onAction="#generarConsutla2" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar3" layoutX="209.0" layoutY="313.0" mnemonicParsing="false" onAction="#generarConsutla3" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar4" layoutX="209.0" layoutY="411.0" mnemonicParsing="false" onAction="#generarConsutla4" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar8" layoutX="675.0" layoutY="411.0" mnemonicParsing="false" onAction="#generarConsutla8" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar7" layoutX="675.0" layoutY="313.0" mnemonicParsing="false" onAction="#generarConsutla7" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar6" layoutX="675.0" layoutY="219.0" mnemonicParsing="false" onAction="#generarConsutla6" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="btnGenerar5" layoutX="675.0" layoutY="130.0" mnemonicParsing="false" onAction="#generarConsutla5" text="Generar">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

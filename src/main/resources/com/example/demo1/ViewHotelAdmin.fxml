@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewHotelAdminController">
+   <children>
+      <Label layoutX="605.0" layoutY="390.0" prefHeight="60.0" prefWidth="205.0" text="You-rismo">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="77.0" text="Buscar por">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="14.0" text="Hoteles">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCriterio" layoutX="600.0" layoutY="70.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <Button fx:id="volverButton" layoutX="50.0" layoutY="387.0" mnemonicParsing="false" onAction="#volver" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+      <Label layoutX="467.0" layoutY="77.0" text="Dato del criterio">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choBoxEleccionCriterioHoteles" layoutX="150.0" layoutY="73.0" prefHeight="31.0" prefWidth="205.0" />
+      <TableView fx:id="TableHoteles" layoutX="50.0" layoutY="172.0" prefHeight="200.0" prefWidth="760.0">
+        <columns>
+          <TableColumn fx:id="ColumnaIdHotel" prefWidth="75.0" text="ID hotel" />
+          <TableColumn fx:id="ColumnaNombreHotel" prefWidth="224.0" text="Nombre" />
+            <TableColumn fx:id="ColumnaDescripcionHotel" prefWidth="279.0" text="Descripcion" />
+            <TableColumn fx:id="clmNumHab" prefWidth="167.0" text="Numero Habitaciones" />
+            <TableColumn fx:id="clmTipoHotel" prefWidth="182.0" text="Tipo Hotel" />
+            <TableColumn fx:id="clmDireccion" prefWidth="203.0" text="Direccion" />
+        </columns>
+      </TableView>
+      <Button layoutX="337.0" layoutY="121.0" mnemonicParsing="false" onAction="#buscarProducto" prefHeight="37.0" prefWidth="93.0" text="Buscar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnEliminar" layoutX="237.0" layoutY="121.0" mnemonicParsing="false" text="Eliminar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnAgregar" layoutX="436.0" layoutY="121.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="93.0" text="Agregar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnEditar" layoutX="536.0" layoutY="121.0" mnemonicParsing="false" onAction="#abrirVentanaEditarHotel" prefHeight="37.0" prefWidth="93.0" text="Editar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

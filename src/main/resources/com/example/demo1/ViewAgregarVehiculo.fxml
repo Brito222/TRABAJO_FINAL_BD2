@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="348.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewAgregarVehiculoController">
+   <children>
+      <Label layoutX="225.0" text="Agregar Automovil">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="104.0" layoutY="65.0" text="ID">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="112.0" text="Modelo">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="31.0" layoutY="155.0" text="Kilometraje">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="53.0" layoutY="203.0" text="Id marca">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="203.0" text="id Tipo">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="360.0" layoutY="158.0" text="Id gama">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="372.0" layoutY="112.0" text="Precio">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="381.0" layoutY="65.0" text="Placa">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Button layoutX="283.0" layoutY="254.0" mnemonicParsing="false" onAction="#agregarVehiculo" text="Agregar">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+      <TextField fx:id="txtIdVeh" layoutX="140.0" layoutY="58.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtModeloVeh" layoutX="140.0" layoutY="105.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtKilVeh" layoutX="140.0" layoutY="151.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtIdMarca" layoutX="140.0" layoutY="196.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtIdTipo" layoutX="438.0" layoutY="196.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtIdGama" layoutX="438.0" layoutY="151.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtPrecioVeh" layoutX="438.0" layoutY="105.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtPlacaVeh" layoutX="438.0" layoutY="58.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewAutomovilAdminController">
+   <children>
+      <Label layoutX="357.0" layoutY="14.0" text="Automoviles">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="727.0" layoutY="600.0" text="You-rismo">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="volverBtn" layoutX="35.0" layoutY="595.0" mnemonicParsing="false" onAction="#volverVehiculo" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+      <Label layoutX="48.0" layoutY="90.0" text="Buscar por">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="488.0" layoutY="90.0" text="Ingresa el criterio a buscar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <ChoiceBox fx:id="choBoxFiltroVehi" layoutX="149.0" layoutY="86.0" prefHeight="31.0" prefWidth="173.0" />
+      <TextField fx:id="txtCriterio" layoutX="714.0" layoutY="86.0" />
+      <TableView fx:id="tblVehiculos" layoutX="35.0" layoutY="233.0" prefHeight="329.0" prefWidth="866.0">
+        <columns>
+          <TableColumn fx:id="clmIDVehiculo" prefWidth="92.0" text="ID vehiculo" />
+          <TableColumn fx:id="clmModeloVehi" prefWidth="125.0" text="Modelo" />
+            <TableColumn fx:id="clmMarcaVehi" prefWidth="96.0" text="Marca" />
+            <TableColumn fx:id="clmGamaVehi" prefWidth="125.0" text="Gama" />
+            <TableColumn fx:id="clmPrecioVehi" prefWidth="158.0" text="Precio" />
+            <TableColumn fx:id="clmKilVehi" prefWidth="170.0" text="Kilometraje" />
+            <TableColumn fx:id="clmPlacaVehi" prefWidth="118.0" text="Placa" />
+            <TableColumn fx:id="clmTipoVeh" prefWidth="147.0" text="Tipo" />
+        </columns>
+      </TableView>
+      <Button fx:id="buscarBtn" layoutX="371.0" layoutY="150.0" mnemonicParsing="false" onAction="#buscarPorFiltroVehiculo" prefHeight="37.0" prefWidth="93.0" text="Buscar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnEliminar" layoutX="266.0" layoutY="150.0" mnemonicParsing="false" text="Eliminar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="478.0" layoutY="150.0" mnemonicParsing="false" onAction="#abrirVentanaAgregar" prefHeight="37.0" prefWidth="93.0" text="Agregar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnEditar" layoutX="584.0" layoutY="150.0" mnemonicParsing="false" onAction="#abrirVentanaEditarVehiculo" prefHeight="37.0" prefWidth="93.0" text="Editar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

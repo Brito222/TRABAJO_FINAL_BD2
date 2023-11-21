@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="326.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewAgregarArticuloController">
+   <children>
+      <Label layoutX="184.0" layoutY="14.0" text="Agregar articulo">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="85.0" layoutY="74.0" text="ID">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="18.0" layoutY="128.0" text="Descripcion">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="38.0" layoutY="182.0" text="Unidades">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="344.0" layoutY="74.0" text="Nombre">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="356.0" layoutY="128.0" text="Precio">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="356.0" layoutY="182.0" text="Id tipo">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="txtIdArt" layoutX="119.0" layoutY="67.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtDescArt" layoutX="119.0" layoutY="121.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtUniArt" layoutX="119.0" layoutY="175.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtNombreArt" layoutX="416.0" layoutY="67.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtPrecioArt" layoutX="416.0" layoutY="121.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtIdTipo" layoutX="416.0" layoutY="175.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <Button fx:id="btnAgregarArticulo" layoutX="242.0" layoutY="244.0" mnemonicParsing="false" onAction="#agregarArticulo" text="agregar">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

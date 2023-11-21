@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="250.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewEditarPaqueteController">
+   <children>
+      <Label layoutX="89.0" layoutY="11.0" text="Editar Paquete">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="112.0" text="Descripcion:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="193.0" layoutY="63.0" text="Precio:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="21.0" layoutY="60.0" text="Tipo:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="txtDescrPaq" layoutX="197.0" layoutY="107.0" prefHeight="31.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtTipoPaq" layoutX="68.0" layoutY="56.0" prefHeight="31.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtPrecioPaq" layoutX="253.0" layoutY="56.0" prefHeight="31.0" prefWidth="100.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <Button fx:id="btnEditar" layoutX="135.0" layoutY="157.0" mnemonicParsing="false" onAction="#EditarPaquete" text="Editar">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="636.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewArticuloUserController">
+   <children>
+      <Label layoutX="325.0" layoutY="21.0" text="Articulos">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="589.0" layoutY="557.0" text="You-rismo">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="122.0" text="Buscar por:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="122.0" text="Criterio de busqueda">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnVolver" layoutX="28.0" layoutY="553.0" mnemonicParsing="false" onAction="#volver" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+      <Button fx:id="btnBuscarArt" layoutX="367.0" layoutY="168.0" mnemonicParsing="false" onAction="#buscarArticulos" text="Buscar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <TableView fx:id="tableArticulos" layoutX="47.0" layoutY="217.0" prefHeight="325.0" prefWidth="725.0">
+        <columns>
+          <TableColumn fx:id="clmIdArt" prefWidth="85.0" text="ID articulo" />
+          <TableColumn fx:id="clmNombreArti" prefWidth="188.0" text="Nombre" />
+            <TableColumn fx:id="clmPrecioArt" prefWidth="123.0" text="Precio" />
+            <TableColumn fx:id="clmTipoArt" prefWidth="140.0" text="Tipo" />
+            <TableColumn fx:id="clmDescArt" prefWidth="388.0" text="Descripcion" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtCriterio" layoutX="561.0" layoutY="115.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="choBoxFiltroArticulos" layoutX="133.0" layoutY="118.0" prefHeight="31.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>

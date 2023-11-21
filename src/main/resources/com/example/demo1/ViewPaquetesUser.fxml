@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="468.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewPaqueteUserController">
+   <children>
+      <Label layoutX="299.0" layoutY="14.0" text="Paquetes">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="73.0" text="Buscar por:">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="73.0" text="Criterio de busqueda">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="533.0" layoutY="389.0" text="You-rismo">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCriterio" layoutX="512.0" layoutY="69.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="choBoxFiltroPaquete" layoutX="144.0" layoutY="72.0" prefWidth="150.0" />
+      <TableView fx:id="tablePaquete" layoutX="51.0" layoutY="171.0" prefHeight="200.0" prefWidth="671.0">
+        <columns>
+          <TableColumn fx:id="clmIdPaquete" prefWidth="85.0" text="ID paquete" />
+          <TableColumn fx:id="clmNombrePaquete" prefWidth="283.0" text="Nombre" />
+            <TableColumn fx:id="clmPrecioPaquete" prefWidth="127.0" text="Precio" />
+            <TableColumn fx:id="clmTipoPaquete" prefWidth="175.0" text="Tipo" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnBuscar" layoutX="341.0" layoutY="117.0" mnemonicParsing="false" onAction="#buscarPaquete" text="Buscar">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnVolver" layoutX="51.0" layoutY="385.0" mnemonicParsing="false" onAction="#volver" text="Volver">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

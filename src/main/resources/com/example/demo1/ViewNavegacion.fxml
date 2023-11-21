@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewNavegacionController">
+   <children>
+      <Label layoutX="298.0" layoutY="14.0" prefHeight="60.0" prefWidth="136.0" text="You-rismo">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="74.0" text="Selecciona que deseas ver">
+         <font>
+            <Font name="Arial Narrow" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="paquetesButton" layoutX="57.0" layoutY="130.0" mnemonicParsing="false" onAction="#verPantallaPaquetes" prefHeight="70.0" prefWidth="238.0" text="Paquetes">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font></Button>
+      <Button fx:id="hotelesButton" layoutX="57.0" layoutY="230.0" mnemonicParsing="false" onAction="#verPantallaHoteles" prefHeight="70.0" prefWidth="238.0" text="Hoteles">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="articulosButton" layoutX="459.0" layoutY="230.0" mnemonicParsing="false" onAction="#verPantallaArticulos" prefHeight="70.0" prefWidth="238.0" text="Articulos">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="vehiculosButton" layoutX="459.0" layoutY="130.0" mnemonicParsing="false" onAction="#verPantallaVehiculo" prefHeight="70.0" prefWidth="238.0" text="Vehiculos">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="informesButton" layoutX="247.0" layoutY="343.0" mnemonicParsing="false" onAction="#abrirVentanaInformes" prefHeight="70.0" prefWidth="238.0" text="Informes">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="volverButton" layoutX="23.0" layoutY="419.0" mnemonicParsing="false" onAction="#volverLogin" text="Volver">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

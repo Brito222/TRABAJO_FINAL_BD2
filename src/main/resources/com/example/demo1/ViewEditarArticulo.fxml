@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="294.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ViewEditarArticuloController">
+   <children>
+      <Label layoutX="220.0" layoutY="14.0" text="Editar articulo">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="21.0" layoutY="72.0" text="Descripcion">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="139.0" text="Unidades">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="348.0" layoutY="74.0" text="Nombre">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="360.0" layoutY="139.0" text="Precio">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="182.0" layoutY="189.0" text="Id tipo">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="txtDescArt" layoutX="123.0" layoutY="67.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtUniArt" layoutX="123.0" layoutY="134.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtNombreArt" layoutX="422.0" layoutY="67.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtPrecioArt" layoutX="422.0" layoutY="134.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <TextField fx:id="txtIdTipo" layoutX="243.0" layoutY="182.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font></TextField>
+      <Button fx:id="btnEditarArticulo" layoutX="274.0" layoutY="241.0" mnemonicParsing="false" onAction="#editarArticulo" text="Editar">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
